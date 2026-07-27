@@ -1,8 +1,29 @@
 aid: fungible
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fungible.png
 name: Fungible
-description: Fungible is a company surfaced as a portfolio company of battery-ventures, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Fungible Inc. was a Santa Clara, California startup founded in 2015 by Pradeep
+  Sindhu (Juniper Networks co-founder) and Bertrand Serlet that built Data
+  Processing Units (DPUs) — programmable microprocessors (the F1 and S1 chips
+  plus the FS1600 NVMe storage array) designed to offload networking, storage,
+  and security workloads from data-center CPUs. Its DPU cluster control plane ran
+  Linux and exposed internal REST APIs for management, but Fungible never
+  published a public developer API, developer portal, or SDK registry. Microsoft
+  acquired the company in January 2023 (reported ~$190M), folded the team into its
+  Azure data-center infrastructure engineering organization, and wound down the
+  independent product line. The fungible.com domain no longer resolves and there
+  is no live public API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/fungible/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +32,36 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: Acquired by Microsoft (Jan 2023) and absorbed into Azure data-center infrastructure; independent company and website wound down.
+x-acquired-by: microsoft
+x-acquired-date: '2023-01-09'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Data Processing Unit
+- DPU
+- Semiconductors
+- Data Center
+- Networking
+- Storage
+- Infrastructure
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: >-
+    Defunct DPU hardware company; acquired by Microsoft Jan 2023, fungible.com
+    domain dead (curl 000 on www/apex/developer hosts), no public API, no
+    first-party packages (npm/PyPI). No artifacts to search/derive.
