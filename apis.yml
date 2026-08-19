@@ -36,7 +36,7 @@ x-status: defunct
 x-status-reason: Acquired by Microsoft (Jan 2023) and absorbed into Azure data-center infrastructure; independent company and website wound down.
 x-acquired-by: microsoft
 x-acquired-date: '2023-01-09'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
