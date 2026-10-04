@@ -55,7 +55,7 @@ tags:
 - Data Processing Unit
 - DPU
 - Semiconductors
-- Data-Center
+- Data Center
 - Networking
 - Storage
 - Infrastructure
@@ -72,6 +72,7 @@ tags_raw:
 - Infrastructure
 - Acquired
 - Defunct
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
